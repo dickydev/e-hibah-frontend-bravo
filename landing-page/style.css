@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 80%; */
+    align-items: center;
+    background-image: url('./background.png');
+    /* background-size: 100px; */
+    background-position: top right;
+    background-size: 350px;
+    background-repeat: no-repeat;
+}
+
+main h1{
+    font-weight: 100;
+    width: 60%;
+    text-align: center;
+}
+
+.MainContainer{
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+
+.MainContainer .Image img.profile{
+    width: 450px;
+}
+
+.MainTeks{
+    margin-left: 40px;
+}
+
+.MainTeks button{
+    background-color: green;
+    border: none;
+    color: white;
+    width: 190px;
+    border-radius: 360px;
+    height: 38px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    -ms-border-radius: 360px;
+    -o-border-radius: 360px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button img.icon{
+    width: 20px;
+    margin-left: 20px;
+}
